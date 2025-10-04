@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="400">
+  <mask id="flower8Mask" maskUnits="userSpaceOnUse" x="20" y="0" width="160" height="200">
+    <path fill="#fff" d="M180 40c0-22.091-35.817-40-80-40S20 17.909 20 40c0 11.947 10.475 22.67 27.084 30C30.474 77.33 20 88.053 20 100s10.475 22.671 27.084 30C30.474 137.329 20 148.053 20 160c0 22.091 35.817 40 80 40s80-17.909 80-40c0-11.947-10.475-22.671-27.084-30C169.525 122.671 180 111.947 180 100s-10.475-22.67-27.084-30C169.525 62.67 180 51.947 180 40z"></path>
+  </mask>
+
+  <!-- White fill inside the flower shape -->
+  <g mask="url(#flower8Mask)">
+    <rect width="200" height="200" fill="white"></rect>
+  </g>
+</svg>

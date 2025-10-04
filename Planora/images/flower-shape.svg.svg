@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="400" height="400">
+  <mask id="cs_mask_white" style="mask-type:alpha" width="200" height="200" x="0" y="0" maskUnits="userSpaceOnUse">
+    <path fill="#fff" d="M50 0C22.386 0 0 22.386 0 50s22.386 50 50 50c-27.614 0-50 22.386-50 50s22.386 50 50 50h100c27.614 0 50-22.386 50-50s-22.386-50-50-50c27.614 0 50-22.386 50-50S177.614 0 150 0H50z"></path>
+  </mask>
+
+  <!-- White background inside the shape -->
+  <g mask="url(#cs_mask_white)">
+    <rect width="200" height="200" fill="white"></rect>
+  </g>
+</svg>
